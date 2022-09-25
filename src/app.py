@@ -1,5 +1,8 @@
 # import des packages et lecture des fichiers
-import numpy as np, pandas as pd, geopandas as gpd
+import numpy as np
+pandas as pd
+geopandas as gpd
+
 from greppo import app
 exf = gpd.read_file('/EXFAR00.json')
 dep = gpd.read_file('/dep.json')
