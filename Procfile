@@ -1,1 +1,1 @@
-web: greppo serve app.py
+web: gunicorn && greppo serve app.py
