@@ -7,4 +7,5 @@ COPY /exf .
 
 RUN pip3 install -r requirements.txt
 
-CMD ["greppo", "serve", "app.py"]
+
+CMD ["greppo", "serve", "app.py", "--host=$PORT"]
