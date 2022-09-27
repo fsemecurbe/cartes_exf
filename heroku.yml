@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
     server:
-    port: $PORT
+  port: $PORT
