@@ -1,1 +1,1 @@
-web: greppo serve app.py
+web: python test.py
