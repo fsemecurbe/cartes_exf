@@ -1,1 +1,1 @@
-greppo serve app_bois/app.py
+greppo serve app.py
