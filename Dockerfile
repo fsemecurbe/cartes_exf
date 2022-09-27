@@ -2,7 +2,7 @@
 
 FROM python:3.9-slim-buster
 
-WORKDIR .
+WORKDIR src
 COPY /app_bois .
 
 RUN pip3 install -r requirements.txt
