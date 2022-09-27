@@ -1,1 +1,1 @@
-web: echo 'caca'
+web: greppo serve app.py
