@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app_gridinshape.py
+web: greppo serve app.py
